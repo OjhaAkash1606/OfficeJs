@@ -1,0 +1,20 @@
+inheritance, composition(mixins), currying, reflect, closures, coalescing
+
+
+
+What is currying in JS?
+    -currying is the technique of evaluating function with multiple arguments,
+    into sequence of nesting function with single arguments.
+
+    -when a function, instead of taking all arguments at once, takes the first one
+     and returns a new function that takes  second one and returns a new function
+     which takes the third one argument and so on until all arguments have
+     been fulfilled. 
+
+
+     when a function takes one arguments instead of taking all at once and 
+     returns a new function that takes second one and returns a new function which 
+     takes third one argument and so on until all arguments have been fulfilled.
+
+
+What is composition in js?
