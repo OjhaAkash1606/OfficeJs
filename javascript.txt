@@ -1,4 +1,5 @@
-inheritance, composition(mixins), currying, reflect, closures, coalescing
+inheritance, composition(mixins), currying, reflect, closures, coalescing, lexical-scope
+
 
 
 
@@ -21,4 +22,39 @@ What is composition in js?
     Function composition is an approach where the result of one function is passed 
     on to the next function, which is passed to another until the final function is 
     executed for the final result. 
+    
     Function compositions can be composed of any number of functions.
+
+    const compose = (...fns) => x => fns.reduce((y, f) => f(y), x);    
+
+
+
+What is closures ?
+    -A closure is a function having access to the parent scope.
+    it preserve the data from outside
+
+    -A closure is an inner function that has access to the outer
+     function's variable.  
+   
+    -A closure is the combination of a function bundled together (enclosed)
+     with references to its surrounding state (the lexical environment)
+
+
+What is reflect?
+    -Reflection is the ability of the program to manipulate variables, properties
+     and methods of objects at run time. 
+
+     -Reflect is a global object that provides some useful static method for reflection.
+
+     -these methods can be divided into two categories.
+        Introspection methods - which are non-destructive methods
+        modification methods - which are destructive methods
+
+
+what is coalescing?
+    -The nullish coalescing operator (??) is a logical operator that
+     returns its right-hand side operand when its left-hand side operand
+     is null or undefined, and otherwise returns its left-hand side operand.
+
+
+
