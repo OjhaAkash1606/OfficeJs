@@ -57,4 +57,21 @@ what is coalescing?
      is null or undefined, and otherwise returns its left-hand side operand.
 
 
+What is hoisting?
+    -Hoisting is a by default behaviour of javascript which allowcats memory 
+    of variable or function before executed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
