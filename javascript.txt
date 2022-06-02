@@ -1,8 +1,47 @@
 inheritance, composition(mixins), currying, reflect, closures, coalescing, lexical-scope
 
+What is variables?
+    -Variable is like a container where we can store the data with any datatype.
+    
+    -variable name must be start with any alphabets or dollar signs($) or underScore(_))
+    not other than its.
+
+    -You should not use any of the JavaScript reserved keyword as variable name.
+
+    -JavaScript variables are case sensitive,
+
+    -there are two types of variable first one local and second one is global variable.
+    
+    Local -  A local variable will be visible only within a function where it is defined.
+             Function parameters are always local to that function.
+
+    global -  A global variable has global scope which means it is visible everywhere 
+              in your JavaScript code.
 
 
 
+What are the data types supported by JavaScript?
+        The data types supported by JavaScript are:    
+            1)primitive data types
+                Primitive data is that data which has not any property and method
+                    Undefined
+                    Null
+                    Boolean
+                    String
+                    Symbol
+                    Number
+        
+            2)Non primitive
+
+                Array
+                Object
+
+What is callback?
+    Callback is a function which is immediate invoked after the it's parent function invoked. 
+
+ What is the difference between Local storage & Session storage?
+
+ 
 What is currying in JS?
     -currying is the technique of evaluating function with multiple arguments,
     into sequence of nesting function with single arguments.
@@ -30,6 +69,7 @@ What is composition in js?
 
 
 What is closures ?
+    -closure is created automatically when we defined function.
     -A closure is a function having access to the parent scope.
     it preserve the data from outside
 
@@ -63,6 +103,76 @@ What is hoisting?
 
 
 
+
+What is difference between regular and arrow function
+    
+    "syntax"
+
+    "this keyword" 
+
+        In regular function, this keyword depends on how to invoke the function
+
+            -if we invoke the function as a regular "Function()" then this keyword gets the value of window object.(Note:but in strict mode this keyword return undefined)
+
+            -if we invoke the function like "Function.call() or Function.apply()" then this keyword gets the first argument as value of it and remainnig as a parameter.(Note:In apply method argument take must in array and in call method can be array or multiple arguments.  )
+
+            -if we invoke the function inside the object then this keyword takes the value as a object.
+
+            if we invoke the function with new keyword then this keyword takes the instance as function.
+
+        "this keyword" in arrow function 
+
+            In arrow function this keyword takes the value from parent regular function. 
+
+    "constructors"
+
+        In regular function
+
+            In regular function new keyword creates new instance of function 
+        
+        In arrow function
+            In arrow function new keyword doesn't create instance of function.
+
+    "Bydefault behaviour of arguments" (all arguments take without parameter)
+
+        In regular function
+            In regular function, arguments is a special key which is contain all arguments in array.
+
+        In arrow function 
+            In arrow function arguments is using as lexically means takes parent regular function's arguments.
+
+    "Implicit return"
+
+        In regular function 
+            If return expression is not defined or missing in regular function then return "undefined"
+
+        In arrow function
+            In arrow function if only one expression without return then it takes that expression as return.  
+            and if more than one expression then it is return undifined (if missing return)
+
+    "No duplicate parameter name"
+        
+        In regular function
+             we use the duplicate parameter name in strict mode then gives error for that but if doesn't use the strict mode then will not give the error.
+
+        In arrow function
+            In arrow function, duplicate parameter's name gives the error doesn't matter strict mode has used or not.
+
+What is classes?
+
+    constructor method
+    prototype method
+    static method
+    super() method
+
+    base class 
+    derived class
+    multilevel inheritance
+    inheritance
+    extends
+
+    class expressions 
+    class declarations
 
 
 
