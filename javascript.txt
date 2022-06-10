@@ -1,5 +1,34 @@
 inheritance, composition(mixins), currying, reflect, closures, coalescing, lexical-scope
 
+1) What is a function?
+    Function is a set of statements that perform a task based on it's statements.it takes some input
+    as parameter and return an output where there is some relation between the input and the output.
+
+2) What is object?
+    Object is a collection of properties that in the form of key and value pairs.
+    Object can store value as an function,object,array and any datatype.
+
+3) What is Prototype?
+    Every object in javascript has a built-in properties which is called prototype.
+    Prototype is itself an object so prototype would have it's own prototype which is known as a
+    prototype chain. 
+    The chain ends when we reach a prototype that has null for it's own prototype.
+
+    Array.__proto__ == return something like native code 
+    Array.prototype == return something like array 
+    Array.prototype.__proto__ == return something like object 
+    Array.prototype.__proto__.__proto__ == return null
+
+
+    Object.__proto__ == return something like native code 
+    Object.prototype ==return something like object 
+    Object.prototype.__proto__ ==return null 
+
+    Function.__proto__, Function.prototype  == return something like native code 
+    Function.__proto__.__proto__  == return something like object 
+    Function.__proto__.__proto__.__proto__  == return null 
+
+
 What is variables?
     -Variable is like a container where we can store the data with any datatype.
     
@@ -20,8 +49,27 @@ What is variables?
 
 
 
+
+
+
+What is primitive value primitive datatype?
+    Primitive value - Primitive value is a value that has not any method and properties.
+
+    Primitive datatype - Primitive datatype is a datatype that has a only primitive value.
+
+What is Non-primitive value and non-primitive datatype?
+    Non-primitive value - Non-primitive value is a value that has a methods or property.
+
+    Non-primitive datatype - Non-primitive datatype is a datatype that has non-primitive value.
+
+What is method and property?
+    Method - Method is like a function that can use multiple time.
+    Property - Property is contains key and value pairs.
+
+
 What are the data types supported by JavaScript?
-        The data types supported by JavaScript are:    
+        The data types supported by JavaScript are:  
+  
             1)primitive data types
                 Primitive data is that data which has not any property and method
                     Undefined
@@ -173,6 +221,13 @@ What is classes?
 
     class expressions 
     class declarations
+
+
+
+-- Object.prototype  is equal to object.__proto__ 
+
+    
+
 
 
 

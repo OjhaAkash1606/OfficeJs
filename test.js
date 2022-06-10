@@ -40,6 +40,8 @@ console.log(baz);
 let a = 10;
 var b = 20;
 const c = 30;
+const arr = [1, 5, 6, 85];
+console.log(arr);
 
 function z() {
     b = 40;
