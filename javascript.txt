@@ -1,4 +1,4 @@
-inheritance, composition(mixins), currying, reflect, closures, coalescing, lexical-scope
+inheritance, composition(mixins), currying, reflect, closures, coalescing, lexical-scope,debouncing,throttling
 
 1) What is a function?
     Function is a set of statements that perform a task based on it's statements.it takes some input
@@ -14,19 +14,40 @@ inheritance, composition(mixins), currying, reflect, closures, coalescing, lexic
     prototype chain. 
     The chain ends when we reach a prototype that has null for it's own prototype.
 
-    Array.__proto__ == return something like native code 
-    Array.prototype == return something like array 
+    Array.__proto__ == return something like native code
+    Array.prototype == return something like array
     Array.prototype.__proto__ == return something like object 
     Array.prototype.__proto__.__proto__ == return null
 
 
-    Object.__proto__ == return something like native code 
-    Object.prototype ==return something like object 
-    Object.prototype.__proto__ ==return null 
+    Object.__proto__ == return something like native code
+    Object.prototype ==return something like object
+    Object.prototype.__proto__ ==return null
 
-    Function.__proto__, Function.prototype  == return something like native code 
-    Function.__proto__.__proto__  == return something like object 
-    Function.__proto__.__proto__.__proto__  == return null 
+    Function.__proto__, Function.prototype  == return something like native code
+    Function.__proto__.__proto__  == return something like object
+    Function.__proto__.__proto__.__proto__  == return null
+
+4) What is Polyfill?
+    A polyfill is a piece of code (usually JavaScript on the Web) used to 
+    provide modern functionality on older browsers that do not natively support it.
+
+5) What is debouncing?
+    The debounce method do not run when invoked instead they wait a predetermined period of time until
+    executing. when we call the same process again. the previous process is canceled. and the timer is reset.
+
+6) What is throttling ?
+    Throttling is a technique in which, doesn't matter how many times the user fires the event,
+    the attached function will be executed once in a given time interval.
+
+
+
+7) difference between throttling and debouncing ?
+    Both used for optimizing performance of web app.
+
+8) What is event propagation and delegation ?
+    Capturing and bubbling and delegation.
+
 
 
 What is variables?
@@ -166,7 +187,7 @@ What is difference between regular and arrow function
 
             -if we invoke the function inside the object then this keyword takes the value as a object.
 
-            if we invoke the function with new keyword then this keyword takes the instance as function.
+            -if we invoke the function with new keyword then this keyword takes the instance as function.
 
         "this keyword" in arrow function 
 
@@ -176,7 +197,7 @@ What is difference between regular and arrow function
 
         In regular function
 
-            In regular function new keyword creates new instance of function 
+            In regular function new keyword creates new instance of function (constructor like object)
         
         In arrow function
             In arrow function new keyword doesn't create instance of function.

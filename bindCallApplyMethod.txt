@@ -1,0 +1,32 @@
+Call method - The call() method calls a function with a given this value and arguments 
+              provided individually.
+              
+    // If function calls without any arguments
+
+            -If function calls In strict mode without arguments, "this" keyword's value is "undefined".  
+
+            -If it doesn't call in strict mode, "this" keyword takes value as global object and
+                all primitive value will be converted to objects.  
+
+    // If function calls with some arguments 
+
+            -In call method, "this" keyword takes first argument as an value and rest as a para-meter 
+            as a list of para-meter.
+
+    // If function calls with "new" keyword
+            
+            -In call method, If function invoked by "new" keyword, this keyword creates new instance 
+             of function.
+
+  // Difference between apply and call method 
+
+            -In call method rest parameter takes as a list and in apply method rest para-meter takes as
+                an single array.
+
+ // bind methods 
+            -The bind() method creates a new function and that function is invoked after defined it.
+
+
+                 
+
+            

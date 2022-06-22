@@ -1,0 +1,19 @@
+There are four fundamental principle of OOP?
+    Abstraction - it ignores the irrelevant details and shows only the required details.
+
+        Encapsulation - 
+        inheritance - inherit from parent's property and method to child property.
+        polymorphism - 
+
+
+constructor function 
+    New {} is created
+    function is called ,this = {} 
+    {} linked to prototype
+    function automatically return {}
+    
+ES6 classes
+Object.create()
+
+
+
