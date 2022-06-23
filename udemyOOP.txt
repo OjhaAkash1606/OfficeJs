@@ -1,14 +1,17 @@
 There are four fundamental principle of OOP?
-    Abstraction - it ignores the irrelevant details and shows only the required details.
+        Abstraction - Abstraction is one of fundamental pillar of oops concept which is used to hide unnecessary data and
+                      shows only which is required only.
 
-        Encapsulation - 
+        Encapsulation - It is used getter and setter method.
+
         inheritance - inherit from parent's property and method to child property.
-        polymorphism - 
+
+        polymorphism - It provides a way to perform a single action in different forms.
 
 
-constructor function 
+constructor function
     New {} is created
-    function is called ,this = {} 
+    function is called ,this = {}
     {} linked to prototype
     function automatically return {}
     
