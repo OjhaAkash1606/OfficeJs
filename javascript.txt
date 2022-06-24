@@ -48,7 +48,14 @@ inheritance, composition(mixins), currying, reflect, closures, coalescing, lexic
 8) What is event propagation and delegation ?
     Capturing and bubbling and delegation.
 
+9)What is coercion and conversion ?? 
 
+"-" or "*" or "/" = converts string to number 
+"+" = converts number to string
+
+    conversion - When data type convert one to another by programmer it is known as conversion.
+
+    coercion - when data type convert one to another by js itself it is known as coercion. 
 
 What is variables?
     -Variable is like a container where we can store the data with any datatype.
@@ -70,7 +77,12 @@ What is variables?
 
 
 
+What is primitive type and reference type ?
+    primitive type - store the data in call stack memory
+                    (string, number,boolean,bigint,symbol)
 
+    reference type - store the data in heap memory.
+                    (object,array,function etc)
 
 
 What is primitive value primitive datatype?
@@ -217,7 +229,7 @@ What is difference between regular and arrow function
 
         In arrow function
             In arrow function if only one expression without return then it takes that expression as return.  
-            and if more than one expression then it is return undifined (if missing return)
+            and if more than one expression then it is return undefined (if missing return)
 
     "No duplicate parameter name"
         
