@@ -19,4 +19,32 @@ ES6 classes
 Object.create()
 
 
+classes :- classes are not hoisted.
+           classes are first class citizens.
+           classes are executed in strict mode.
 
+
+
+using getter and setter methods works like property.
+
+static methods :-
+
+
+
+
+apie 
+
+
+pay off
+pop off - Bhadas
+patch up  
+pile up -
+
+
+
+
+
+Hello sir,
+     sub - about c sharp
+     my self khemchand r ojha. i have been working in automated tradding softtech pvt ltd 
+     last five months. i am hired by automated for react js 
