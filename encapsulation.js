@@ -1,3 +1,14 @@
+/* 
+Public fields 
+Private fields 
+Public methods
+Private methods
+also static methods
+*/
+
+
+
+
 class BankAccount {
     customerName;
     accountNumber;
