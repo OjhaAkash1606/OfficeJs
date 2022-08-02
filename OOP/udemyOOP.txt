@@ -1,24 +1,20 @@
 Classical inheritance, prototypal inheritance. 
 
-
 What is OOP?
     Object oriented programming is a programming paradigm based on the concept of object.
     OOP was developed with the goal of organizing code, to make it more flexible and 
     easier to maintain.
 
-What is prototypal inheritance??
+What is prototypal inheritance?
     Prototype contains a methods that are accessible to all objects linked to that prototype.
 
-
-
 There are three ways to implementing prototypal inheritance in js.
-    Constructor function - It is technique to create objects form a function.
+    Constructor function - It is technique to create objects from a function.
 
-    ES6 Classes - it works exactly like constructor function. 
+    ES6 Classes - it works exactly like constructor function.
                   Modern alternative to constructor function syntax.
 
     Object.Create() - The easiest and most straightforward way to linking an object to a prototype object. 
-
 
 There are four fundamental principle of OOP?
         Abstraction - Abstraction is one of fundamental pillar of oops concept which is used to hide unnecessary data and
@@ -29,14 +25,14 @@ There are four fundamental principle of OOP?
 
         inheritance - inherit from parent's property and method to child property.
 
-        polymorphism - A child class can overwrite a method  it inherited from a parent class.
-
+        polymorphism -A child class can overwrite a method  it inherited from a parent class.
 
 constructor function
     New {} is created
     function is called ,this = {}
     {} linked to prototype
     function automatically return {}
+    
     
 ES6 classes
 Object.create()
@@ -67,7 +63,3 @@ pile up -
 
 
 
-Hello sir,
-     sub - about c sharp
-     my self khemchand r ojha. i have been working in automated tradding softtech pvt ltd 
-     last five months. i am hired by automated for react js 

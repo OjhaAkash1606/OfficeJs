@@ -1,0 +1,7 @@
+1) What is a function?
+    Function is a set of statements that perform a task based on it's statements.it takes some input
+    as parameter and return an output where there is some relation between the input and the output.
+
+2) What is object?
+    Object is a collection of properties that in the form of key and value pairs.
+    Object can store value as an function,object,array and any datatype.

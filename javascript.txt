@@ -1,4 +1,4 @@
-inheritance, composition(mixins), currying, reflect, closures, coalescing, lexical-scope,debouncing,throttling
+.env File, inheritance, composition(mixins), currying, reflect, closures, coalescing, lexical-scope,debouncing,throttling
 
 1) What is a function?
     Function is a set of statements that perform a task based on it's statements.it takes some input
@@ -9,6 +9,7 @@ inheritance, composition(mixins), currying, reflect, closures, coalescing, lexic
     Object can store value as an function,object,array and any datatype.
 
 3) What is Prototype?
+
     Every object in javascript has a built-in properties which is called prototype.
     Prototype is itself an object so prototype would have it's own prototype which is known as a
     prototype chain. 
@@ -41,14 +42,13 @@ inheritance, composition(mixins), currying, reflect, closures, coalescing, lexic
     the attached function will be executed once in a given time interval.
 
 
-
 7) difference between throttling and debouncing ?
     Both used for optimizing performance of web app.
 
 8) What is event propagation and delegation ?
     Capturing and bubbling and delegation.
 
-9)What is coercion and conversion ?? 
+9)What is coercion and conversion ? 
 
 "-" or "*" or "/" = converts string to number 
 "+" = converts number to string
@@ -57,7 +57,7 @@ inheritance, composition(mixins), currying, reflect, closures, coalescing, lexic
 
     coercion - when data type convert one to another by js itself it is known as coercion. 
 
-What is variables?
+10) What is variables?
     -Variable is like a container where we can store the data with any datatype.
     
     -variable name must be start with any alphabets or dollar signs($) or underScore(_))
@@ -75,7 +75,12 @@ What is variables?
     global -  A global variable has global scope which means it is visible everywhere 
               in your JavaScript code.
 
+11)What is destructuring?
+    Destructuring is a Javascript expression that allow us to extract value from array, object and map 
+    and set them into a new variable .
 
+12) What is .env file.
+    .env file uses to store your sensitive credentials like API keys.
 
 What is primitive type and reference type ?
     primitive type - store the data in call stack memory
@@ -120,7 +125,7 @@ What are the data types supported by JavaScript?
 What is callback?
     Callback is a function which is immediate invoked after the it's parent function invoked. 
 
- What is the difference between Local storage & Session storage?
+What is the difference between Local storage & Session storage?
 
  
 What is currying in JS?
@@ -145,7 +150,7 @@ What is composition in js?
     
     Function compositions can be composed of any number of functions.
 
-    const compose = (...fns) => x => fns.reduce((y, f) => f(y), x);    
+    const compose = (...fns) => x => fns.reduce((y, f) => f(y), x);
 
 
 
@@ -162,7 +167,7 @@ What is closures ?
 
 
 What is reflect?
-    -Reflection is the ability of the program to manipulate variables, properties
+     -Reflection is the ability of the program to manipulate variables, properties
      and methods of objects at run time. 
 
      -Reflect is a global object that provides some useful static method for reflection.
@@ -173,13 +178,13 @@ What is reflect?
 
 
 what is coalescing?
-    -The nullish coalescing operator (??) is a logical operator that
-     returns its right-hand side operand when its left-hand side operand
+    -The coalescing operator (??) is a logical operator that
+     returns its right-hand side operand when   its left-hand side operand
      is null or undefined, and otherwise returns its left-hand side operand.
 
 
 What is hoisting?
-    -Hoisting is a by default behaviour of javascript which allowcats memory 
+    -Hoisting is a by default behavior of javascript which allocates memory 
     of variable or function before executed.
 
 
@@ -189,13 +194,13 @@ What is difference between regular and arrow function
     
     "syntax"
 
-    "this keyword" 
+    "this keyword"
 
         In regular function, this keyword depends on how to invoke the function
 
             -if we invoke the function as a regular "Function()" then this keyword gets the value of window object.(Note:but in strict mode this keyword return undefined)
 
-            -if we invoke the function like "Function.call() or Function.apply()" then this keyword gets the first argument as value of it and remainnig as a parameter.(Note:In apply method argument take must in array and in call method can be array or multiple arguments.  )
+            -if we invoke the function like "Function.call() or Function.apply()" then this keyword gets the first argument as value of it and remaining as a parameter.(Note:In apply method argument take must in array and in call method can be array or multiple arguments.  )
 
             -if we invoke the function inside the object then this keyword takes the value as a object.
 
@@ -214,7 +219,7 @@ What is difference between regular and arrow function
         In arrow function
             In arrow function new keyword doesn't create instance of function.
 
-    "Bydefault behaviour of arguments" (all arguments take without parameter)
+    "by default behavior of arguments" (all arguments take without parameter)
 
         In regular function
             In regular function, arguments is a special key which is contain all arguments in array.
@@ -259,7 +264,86 @@ What is classes?
 
 -- Object.prototype  is equal to object.__proto__ 
 
+Function, Object, Prototype, Destructuring, execution context, Hoisting,
+
+What is Function?
+    Function is a set of statement which perform the task based on the statement and it takes 
+    some input as a parameter and return something where there is some relation between input and return.
+
+What is Object?
+    Object is a collection of property in the form of key and value pairs which contains all data type value.
+
+What is prototype?
+    prototype is a built in property and method.
+    Every prototype is a object so every prototype has it's own prototype which is known as prototype chain.
+    Whenever object's prototype value is null where there is end of prototype chain. 
+
+What is a  destructuring?
+    Destructuring is a javascript expression that allow to extract values from the array, object and maps
+    and set them inti a new variable.
+
+What is a execution context?
+    Execution context is a special environment where javascript engine handles the transformation and 
+    execution javascript code. 
+
+What is a hoisting?
+    Hoisting is a by default  behavior of javascript that allocates memory to a variable and function before
+    execution of code.
+
+What is a debouncing?
+    Debouncing is a advance method in which, function don't invoked when invoked it instead they wait 
+    for predetermined period of time until executing. when we call same process again then previous 
+    process is canceled and also time is reset.- 
+
+
+
+
+
+
     
+
+
+Myself Khemchand Rameshchandra Ojha. 
+I am resident of Ahmedabad .
+I have pursued my graduation from 2016
+i had studied 3 years for compitision 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 

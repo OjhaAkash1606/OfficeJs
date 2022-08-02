@@ -36,7 +36,6 @@ console.log(baz);
 
 // expected output: 0 */
 
-
 /* let a = 10;
 var b = 20;
 const c = 30;
@@ -52,8 +51,6 @@ console.log(z()); */
 // console.log(d);
 // console.log(b);
 // console.log(f);
-
-
 
 /* Bind call and apply methods in javascript function */
 
@@ -71,8 +68,6 @@ let obj2 = {
 // obj2.fullName.call(obj1, "Rameshchandra", "Ramsaran");
 obj2.fullName.call();
 obj2.fullName.apply(obj1); */
-
-
 
 /* function Product(name, price) {
     this.name = name;
@@ -127,9 +122,6 @@ mySet();
 
  */
 
-
-
-
 // OOP in js
 
 /* const Person = function (firstName, lastName) {
@@ -156,4 +148,26 @@ console.log(ankit.__proto__.__proto__);
 // console.log(ankit.__proto__);
 // console.log(ankit);
 
+/* function guessNumber() {
+  console.log('run');
+  // generating a random integer from 1 to 10
+  const random = Math.floor(Math.random() * 10) + 1;
+  console.log(random);
 
+  // take input from the user
+  let number = parseInt(prompt('Guess a number from 1 to 10: '));
+
+  // take the input until the guess is correct
+   while (number !== random) {
+    number = parseInt(prompt('Guess a number from 1 to 10: '));
+  } 
+
+  // check if the guess is correct
+  if (number == random) {
+    console.log('You guessed the correct number.');
+  }
+}
+
+// call the function
+guessNumber();
+ */

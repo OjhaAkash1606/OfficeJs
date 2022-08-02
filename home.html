@@ -10,6 +10,9 @@
 
 <body>
 
+
+    <input type="text" onkeypress="processChange()">
+
     <!-- 
 Event delegation
 
@@ -19,20 +22,41 @@ Event delegation
         <li id="third" class="thirdClass">third</li>
     </ul>
  -->
-    <script>
-        /*
-        Event delegation
-        
-        document.querySelector("#grand").addEventListener('click', (e) => { console.log(e.target.id, e.target.className); }) */
-    </script>
 
 </body>
+
+<script>
+
+
+
+    function debounce(func, timeout) {
+        let timer;
+        console.log(arguments);
+        return (...args) => {
+            clearTimeout(timer);
+            timer = setTimeout(() => { func.apply(this, args); }, timeout);
+        };
+    }
+    function saveInput() {
+        console.log('Saving data');
+    }
+    const processChange = debounce(() => saveInput(), 300);
+
+
+
+    /*
+Event delegation
+ 
+document.querySelector("#grand").addEventListener('click', (e) => { console.log(e.target.id, e.target.className); }) */
+</script>
+
 <!-- <script src="./test.js"></script> -->
 <!-- <script src="./OOP//classessES6.js"></script> -->
 <!-- <script src="./OOP/constructorFunction.js"></script> -->
 <!-- <script src="./OOP/objectCreate.js"></script> -->
 <!-- <script src="./OOP/inheritance/betweenClass&constructor.js"></script> -->
 <!-- <script src="./OOP/inheritance/Es6Classes.js"></script> -->
-<script src="./OOP/inheritance//objectCreate.js"></script>
+<!-- <script src="./OOP/inheritance//objectCreate.js"></script> -->
+<!-- <script src="./test.js"></script> -->
 
 </html>
